@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <main className='w-full h-screen flex flex-col items-center bg-[#FAFAF9]'>
+      <main className='w-full min-h-screen flex flex-col items-center bg-[#FAFAF9]'>
         <TestimonialSection>
 
         </TestimonialSection>

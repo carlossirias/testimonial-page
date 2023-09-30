@@ -18,7 +18,7 @@ export function TestimonialSection()
         }
     ]
     return(
-        <section className="w-full max-w-7xl sora bg-[#FAFAF9] px-[72px] grid grid-cols-2 gap-8 h-screen">
+        <section className="w-full max-w-7xl sora bg-[#FAFAF9] px-[24px] max-sm:py-10 md:px-[72px] grid grid-cols-1 md:grid-cols-2 gap-8 min-h-screen">
             <div className="flex flex-col max-xl:h-fit md:pt-[163px] 2xl:pt-0 2xl:justify-center gap-5">
                 <StarEmoji/>
                 <h1 className="font-semibold text-4xl">Reviewers</h1>
@@ -30,7 +30,7 @@ export function TestimonialSection()
                 </ActionsArticle>
             </div>
 
-            <div className="flex flex-col max-xl:h-fit md:pt-[163px] 2xl:pt-0 2xl:justify-center gap-10">
+            <div className="flex flex-col max-sm:mt-8 max-xl:h-fit md:pt-[163px] 2xl:pt-0 2xl:justify-center gap-10">
                 <div className="flex justify-end">
                     <CompanyCard 
                     rate={4}
